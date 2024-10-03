@@ -1,20 +1,18 @@
-## Setup Environment - Anaconda
-```
-conda create --name main-ds python=3.9
-conda activate main-ds
+# E-Commerce Dashboard - Antonius Kustiono Putra
+
+## Struktur Project
+- `dashboard.py`: File python dashboard untuk menjalankan Streamlit App.
+- `requirements.txt`: Daftar dependencies yang diperlukan beserta versinya.
+- `data/`: Folder tempat menyimpan dataset asli.
+- `notebook.ipynb`: File notebook sebagai catatan analisis.
+
+## Setup
+```commandline
 pip install -r requirements.txt
 ```
 
-## Setup Environment - Shell/Terminal
-```
-mkdir proyek_analisis_data
-cd proyek_analisis_data
-pipenv install
-pipenv shell
-pip install -r requirements.txt
-```
-
-## Run steamlit app
-```
+## Run Streamlit
+```commandline
+cd dashboard
 streamlit run dashboard.py
 ```
